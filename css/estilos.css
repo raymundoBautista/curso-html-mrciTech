@@ -38,6 +38,53 @@ nav li{
 	background-color: #16210B;
 }
 
+#imagen-curso img{
+	border-radius: 50%;
+	box-shadow: 5px -5px 15px rgba(255,255,255,0.8);
+	-webket-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#imagen-curso img:hover{
+	-webket-transition: rotate(190deg);
+	-moz-transition: rotate(190deg);
+	-ms-transition: rotate(190deg);
+	transition: rotate(190deg);	
+}
+
+#imagen-curso, #informacion-portada{
+	display: inline-block;
+	vertical-align: middle;
+	width: 45%;
+}
+#informacion-portada{
+	color:#eee;
+}
+#informacion-portada h1{
+	font-size: 3em;
+}
+
+#informacion-portada p{
+	font-size: 1.8em;
+}
+
+
+#portada{
+	background-image: url(../images/portada.jpg);
+	padding:150px 0;
+	
+}
+
+#botonazo{
+	background-color: rgb(145,67,90);
+	color: #eee;
+	padding:150px 0;
+	margin-top: 2em;
+	padding: 0.5em 2.2 em;
+	text-decoration: none;
+}
 .logo
 {
 	width: 10%;
