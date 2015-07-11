@@ -11,38 +11,61 @@
 			margin: 0;
 			padding: 0;
 		}
+		
+		body{
+			font-size: 36px;
+			text-align: center;
+		}
+
+		div{
+			border-radius: 7px;
+		}
+		
 		#contenedor-general{
 			background-color: #d8d8d8;
 			margin: 0 auto;
+			padding: 1em;
 			width: 960px;
 		}
+		#section{
+			background-color: rgba(255,250,250,0.6) 
+		}
+
+		.verde {
+			background-color: green;
+			color: #eee;
+			margin: 5px 0;
+			padding: 10px;
+		}
+
+
 	</style>
 
 </head>
 <body>
 	<div id="contenedor-general"> 
 		<!-- ESTO ES UN COMENTARIO -->
-		<div id="header">
+		<div id="header" class='verde'>
 			<p>Header</p>
 		</div>
-		<div id="nav">
+		<div id="nav" class='verde'>
 			<p>Nav</p>
 		</div>
 
 		<div id="cuerpo-pagina">
-			<div id="article">
+			<div id="article" class='verde'>
 				<p>Article</p>
 				<div id="section">
 					<p>Section</p>
 				</div>
 			</div>
 
-			<div id="aside">
+			<div id="aside" class='verde'>
 				<p>Aside</p>
 			</div>
 		</div>
 
-		<div id="footer">
+		<div id="footer" class='verde'>
 			<p>Footer</p>
 		</div>
 
